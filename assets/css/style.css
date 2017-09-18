@@ -1,0 +1,288 @@
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-image: url("../images/background.png");   
+}
+
+.maincontainer {
+  /*width:960px;
+  margin:0 auto;*/
+  background-color: #ffffff;
+}
+
+
+
+/*Name Section*/
+
+
+
+/*End Name Section*/
+
+/* Navigation Bar*/
+.navbar-default .navbar-text {
+  color:#ffffff;
+  background-color: #4aaaa5;
+  padding: 20px;
+  margin:auto;  
+}
+
+
+/*Positioning Header elements name and navbar*/
+.navbar-header {
+  margin-left: 15%
+
+}
+.navbar-right{
+    margin-right: 15%;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 10px;
+
+ }
+.navbar-right a{
+    margin-left:10px;
+    margin-right:20px;
+    border-right: 1px solid;
+    
+
+}
+
+
+/*About Me Section*/
+.about_me {
+  /*float:left;
+  width:650px;
+  background-color:#ffffff;*/  
+  padding:30px;
+}
+
+
+.about_me img {
+  float:left;
+  margin-right:10px;
+  margin-left:10px;
+  
+} 
+.about_me p {
+
+  color:#777777; 
+}
+.about_me h1 {
+  /*padding:10px;
+  background-color:#4aaaa5;*/
+}
+/*End About Me*/
+.contact {
+  float:left;
+  width: 650px;
+  background-color: #ffffff;
+  font-weight: bold;
+
+}
+
+.contact h1 {
+    padding:10px;
+    color:#4aaaa5;
+}
+
+/* Styles and layout for Contact Section of the form */
+
+
+form {
+  padding:0 10px 0 10px;
+  color:#777777; 
+  line-height: 25px; 
+  font-size: 14pt;  
+}
+
+
+input[type="text"] {
+  font-size: 1.2em;
+  margin-top: 5px;
+  margin-bottom: 5px; 
+  width:70%;
+}
+input[type="submit"]{
+  padding:10px;
+  background-color: #4aaaa5;
+  color:#ffffff;
+  border:0;
+  font-size:16pt;
+  margin-bottom: 10px;
+
+}
+textarea {
+  width:100%;
+  height: 200px;
+  font-size:1.2em;
+  color:#ffffff;
+}
+
+
+
+
+/* End of Form Styling */
+
+/*Portfolio Boxes*/
+
+/*Adding captions to placeholder boxes*/
+
+/* tells images to add margins */
+#imagewithcaption .captiontext:nth-child(odd){
+  margin-right:10px;
+}
+
+
+#imagewithcaption .captiontext:nth-child(even){
+  margin-left:10px;
+}
+
+/*Holds all the images with captions*/
+.portofoliocontainer {
+  margin:20px;
+  padding-top: 20px;
+  color:#777777;
+
+}
+
+/*Holds all the images*/
+#allimages {
+  margin-left:35px
+  margin-bottom: 5px;
+
+  
+}
+.captiontext {
+  width:47%;
+  position:relative;
+  margin-bottom:20px;
+  float:left;
+}
+.captiontext p {
+  position:absolute;
+  background-color: #4aaaa5; 
+  width: 100%;  
+  bottom:15px;
+  color:white;
+  text-align: center; 
+}
+
+/*.captionimages {
+  margin-left:35px;
+  position: relative; 
+}*/
+.recentwork{
+  width: 100%;
+}
+/*End captions to placeholder*/
+
+/*Portfolio Section*/
+.portfolio {
+  float:left;
+  width: 650px;
+  background-color: #ffffff;
+  color:#777777;
+}
+.portfolio h1 {
+  padding:10px;
+  color:#4aaaa5;
+}
+
+/*Connect with me section*/
+.connect {
+  /*width:270px;
+  margin:auto;
+  background-color: #ffffff;*/
+  color:#4aaaa5;
+  border-bottom: 1px solid #ffffff;
+
+}
+.text-align {
+  text-align: center;
+}
+/*
+.connect_with_me img {
+  padding:5px;
+  margin-left: 10px;
+}
+
+.connect_with_me h2 {
+  padding:5px;  
+  margin:0 auto 0 auto;
+  color:#4aaaa5;
+}*/
+/*End Connect with me*/
+
+/*Footer Section*/
+.footer{
+  background-color: #666666;
+  padding:10px;
+  text-align:center;
+  border-top: 8px solid #4aaaa5;
+}
+
+.clearfix::after {
+  content:"";
+  display: block;
+  clear:both;
+}
+/*End Footer Section*/
+
+/*Media Queries*/
+
+@media screen and (max-width:980px){
+
+/*matching the max-width since where most of the elements will refer to when scaling*/
+  body {
+    width: 980px;
+  }
+
+  h1 {
+
+  }
+
+  p {
+
+  }
+  .maincontainer {
+    width: 80%;
+  }
+
+  .name {
+    width: 35%;
+  }
+
+  .nav {
+    width:40%;
+    margin-right: 13%;
+  }
+
+  .about_me {
+    float:left;
+    width: 35%;
+  }
+  .about_me image {
+    float:none;
+    clear:both;
+  }
+  .about_me p {
+    float:none;
+  } 
+  .connect_with_me {
+    width:30%;
+    float:right;
+  }
+
+}
+
+
+}
+
+
+@media screen and (max-width:768px){
+
+}
+
+
+@media screen and (max-width:640px){
+
+}
