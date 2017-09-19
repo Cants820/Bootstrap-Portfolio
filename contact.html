@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <head>
 
-    <title>Bootstrap Portfolio - About Me </title>
+    <title>Bootstrap Portfolio - Portfolio </title>
      <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -18,13 +18,13 @@
     
 <!-- Header -->
   <header>
-    <nav class="navbar navbar-default">
+    <nav class="navbar custom-header navbar-fixed-top">
       <div class="fluid-container">
         
-            <div class="navbar-header">
-              <h1 class="navbar-text">Joseph Cantos</h1>
+            <div class="navbar-header navbar-name">
+              <p class="navbar-text navbar-name custom-name">Joseph Cantos</p>
             </div>
-            <p class ="navbar-right">
+            <p class ="navbar-right navbar-text custom-nav">
               <a href="index.html">About</a> 
               <a href="portfolio.html">Portfolio</a> 
               <a href="contact.html">Contact</a></p>
@@ -36,36 +36,57 @@
   
 
 
-  <!-- Main Section -->
+<!-- Main Section -->
  <div class="container">
-    
-    <div class="row maincontainer">
-      <!-- column to right padding -->
+
+
+<!-- Header  -->
+    <div class="row">
+
       <div class="col-sm-1"></div>
+      <div class="col-sm-7 about-me">
+     
+<!-- Portfolio  -->
+      <div class="page-header">
+      <h1>Contact</h1>
+      </div> 
       
-      <div class="col-sm-7">
-         
-        <a href="https://placeholder.com" class="thumbnail"><img src="http://via.placeholder.com/150x150"></a> 
-        <h1>About Me</h1> 
-        <p>Morbi nisl felis, luctus id urna vitae, tincidunt pulvinar lorem. Suspendisse ultricies ipsum sit amet aliquam condimentum. Phasellus orci tortor, commodo vitae semper at, dapibus eu erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ornare lobortis neque nec finibus. Nunc rutrum euismod dui fringilla laoreet. Sed neque arcu, consectetur vel rhoncus vel, imperdiet eget dolor. Nunc a maximus ex. Fusce maximus interdum tincidunt. Nullam non tellus eget enim dignissim aliquam et nec sapien. Maecenas congue ipsum nec magna suscipit consectetur. Integer suscipit luctus felis, quis mollis massa condimentum id. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-        </a>
-        <p>Morbi nisl felis, luctus id urna vitae, tincidunt pulvinar lorem. Suspendisse ultricies ipsum sit amet aliquam condimentum. Phasellus orci tortor, commodo vitae semper at, dapibus eu erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ornare lobortis neque nec finibus. Nunc rutrum euismod dui fringilla laoreet. Sed neque arcu, consectetur vel rhoncus vel, imperdiet eget dolor. Nunc a maximus ex. Fusce maximus interdum tincidunt. Nullam non tellus eget enim dignissim aliquam et nec sapien. Maecenas congue ipsum nec magna suscipit consectetur. Integer suscipit luctus felis, quis mollis massa condimentum id. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-        <p>Morbi nisl felis, luctus id urna vitae, tincidunt pulvinar lorem. Suspendisse ultricies ipsum sit amet aliquam condimentum. Phasellus orci tortor, commodo vitae semper at, dapibus eu erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ornare lobortis neque nec finibus. Nunc rutrum euismod dui fringilla laoreet. Sed neque arcu, consectetur vel rhoncus vel, imperdiet eget dolor. Nunc a</p>
+      <div class="row">
+       <!-- Form -->
+          <div class="form group">
+                <label for="usr">Name:</label>
+                  <input type="text" class="form-control" value="John Smith">
+            </div>
+            <div class="form group">
+                <label for="usr">Email:</label>
+                  <input type="text" class="form-control" value="email@gmail.com">
+            </div>
+            <div class="form-group">
+               <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5"></textarea>
+            </div>
+          <div class="form-group">
+               <button type="submit" class="btn btn-default submit">Submit</button>
+            </div>
+
+
+          </div>
       </div>
       
 
-      <!-- Connect Me -->
+
+<!-- Connect Me -->
       <div class="col-sm-3 maincontainer">
         <aside>
-          <div class="panel panel-default text-align">
-            <div class="panel-heading ">Connect with Me</div>
-              <div class="panel-body connect">
+          <div class="panel panel-default">
+           <div class="panel panel-primary connect-header">Connect with me</div>
+              <div class="panel-body connect-body">
                 <a href="https://github.com/Cants820"><img src="assets/images/git.png"/></a>
                 <a href="https://www.linkedin.com/in/joseph-cantos-4a4714132/"><img src="assets/images/link.png"/></a>
                 <a href="https://stackoverflow.com/users/8540598/joseph-cantos"><img src="assets/images/stack.png"/></a></div>
           </div>
         </aside>
-      
+      </div>
       <div class="col-sm-1"></div>
 
      </div>
